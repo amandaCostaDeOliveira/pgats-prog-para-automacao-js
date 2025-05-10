@@ -38,7 +38,6 @@ function obterObjetosDog(){
         peso: 11.5
     }
 }
-
 console.log(obterObjetosDog())
 
 function listarObjetosDog(){
@@ -50,5 +49,4 @@ function listarObjetosDog(){
         peso: 15.5
     }
 }
-
 console.log(listarObjetosDog())
