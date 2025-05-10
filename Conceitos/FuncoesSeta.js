@@ -18,7 +18,7 @@ const exibirPorteDoDog = (porte = 'ND') => {
 exibirPorteDoDog()
 exibirNomeDoDog('Grande')
 
-// função nomeada/tradicional, sem parâmetro, com retorno
+// função seta, sem parâmetro, com retorno
 const listarNomesDeDogs = () => {
     return [
         'Pituca',
@@ -46,3 +46,7 @@ const listarObjetosDog = () => {
     }
 }
 console.log(listarObjetosDog())
+
+// funcao seta/arrow sembloco + com retorno 'automático'
+const dobrar = (numero) => numero*2
+console.log(dobrar(57))
