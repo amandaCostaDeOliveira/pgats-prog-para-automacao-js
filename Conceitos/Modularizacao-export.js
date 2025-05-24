@@ -6,6 +6,7 @@
  *  export {} / import {} from ''
  */
 
+function naoExportar () {
 //código
 console.log('Código')
 
@@ -32,11 +33,18 @@ exibirNomePet('Pipoca')
 exibirNomePet('Pantera')
 
 console.log('_______________________')
+}
+
+//naoExportar()
 
 //Modulo Exportar - exportar função para uusar em outras partes do projeto
 //ESM: export {} 
 
+function outraExibirNomePet(nomePetFuncao){
+    console.log('Export/Import')
+    console.log(`O nome do pet é ${nomePetFuncao}`)
+}
 export {
-    exibirNomePet
+   outraExibirNomePet
 }
 
