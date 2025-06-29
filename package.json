@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha Testes/*.js"
+    "test": "mocha Testes/*.js",
+    "test-trabalho": "mocha TrabalhoFinal/trabalho-final.js"
   },
   "repository": {
     "type": "git",
