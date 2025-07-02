@@ -8,6 +8,6 @@ pipelines:
           caches:
             - node
           script:
-            - npm install -g yarn
+            #- npm install -g yarn (o Yarn já está instalado na imagem node:18)
             - yarn
             - yarn run test-trabalho
