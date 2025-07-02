@@ -1,12 +1,13 @@
 image: node:18
 
 pipelines:
-  default:
-    - step:
-        name: "Executando testes do Trabalho Final"
-        caches:
-          - node
-        script:
-          - npm install -g yarn
-          - yarn
-          - yarn run test-trabalho
+  custom:
+    trabalho-final:
+      - step:
+          name: "Executando testes do Trabalho Final"
+          caches:
+            - node
+          script:
+            - npm install -g yarn
+            - yarn
+            - yarn run test-trabalho
